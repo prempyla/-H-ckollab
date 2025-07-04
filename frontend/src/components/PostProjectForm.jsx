@@ -52,6 +52,7 @@ const PostProjectForm = () => {
     };
 
     try {
+      console.log("🌐 API base URL:", process.env.REACT_APP_API_BASE_URL);
       const res = await fetch(`${process.env.REACT_APP_API_BASE_URL}/api/projects`, {
         method: 'POST',
         headers: {
@@ -75,7 +76,7 @@ const PostProjectForm = () => {
 
   const sectionClass =
     "space-y-6 bg-gray-950 p-6 rounded-xl border border-gray-800";
-    
+
   return (
     <div className="min-h-screen px-6 py-12 bg-black text-white">
       <div className="max-w-5xl mx-auto space-y-10">
