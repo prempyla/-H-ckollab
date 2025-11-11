@@ -77,9 +77,9 @@ export default function Navbar() {
     <nav className="w-full border-b border-gray-800 bg-gray-950 text-white">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="text-2xl font-bold tracking-tight flex items-center gap-1">
-          <Link to="/" className="flex items-center space-x-2 group">
-            <span className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-blue-500 select-none" style={{letterSpacing: '0.01em'}}>H</span>
-            <span className="text-white font-semibold text-2xl tracking-tight" style={{letterSpacing: '0.01em'}}>collab</span>
+          <Link to="/" className="flex items-center space-x-2 group hover:scale-105 transition-transform duration-200">
+            <span className="font-extrabold text-3xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-blue-500 select-none hover:from-blue-300 hover:to-purple-300 transition-all duration-300" style={{letterSpacing: '0.01em'}}>H</span>
+            <span className="text-white font-semibold text-2xl tracking-tight group-hover:text-gray-300 transition-colors duration-200" style={{letterSpacing: '0.01em'}}>collab</span>
           </Link>
         </div>
 

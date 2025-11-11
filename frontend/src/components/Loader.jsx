@@ -1,10 +1,15 @@
 import React from "react";
-import { ClipLoader } from "react-spinners";
+import "./Loader.css";
 
 const Loader = ({ loading = true, size = 35 }) => {
+  if (!loading) return null;
   return (
-    <div style={{ textAlign: "center", padding: "1rem" }}>
-      <ClipLoader color="#e74c3c" loading={loading} size={size} />
+    <div className="custom-loader-container">
+      <div
+        className="custom-spinner"
+        style={{ width: size, height: size }}
+        aria-label="Loading"
+      />
     </div>
   );
 };

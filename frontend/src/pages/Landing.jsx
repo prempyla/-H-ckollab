@@ -43,8 +43,8 @@ export default function Landing() {
           </span>
         </h1>
         <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 text-center">
-          H@ckollab helps you find teammates, join or post hackathons and projects, and launch together. <br />
-          Real people. Real teams. Real results.
+          Connect with developers who share your passion. Join hackathons, build projects, and grow your network. <br />
+          <span className="text-blue-400 font-medium">No more solo coding.</span>
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button
