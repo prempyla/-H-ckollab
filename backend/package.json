@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node index.js",
     "start": "node index.js",
-    "postinstall": "npx prisma migrate dev && npx prisma generate",
+    "postinstall": "npx prisma generate",
     "seed": "node prisma/seed.js"
   },
   "keywords": [],
