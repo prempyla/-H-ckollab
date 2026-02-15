@@ -6,7 +6,7 @@ A modern full-stack platform for students to discover, connect, and collaborate 
 
 ## 🚀 Overview
 
-H@ckollab is a collaboration hub designed for hackathons and student projects. It enables users to:
+H-ckollab is a collaboration hub designed for hackathons and student projects. It enables users to:
 - Create rich developer profiles
 - Find and join projects or hackathons
 - Build teams based on skills and interests
